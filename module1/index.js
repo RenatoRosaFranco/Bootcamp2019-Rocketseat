@@ -15,4 +15,5 @@ server.get('/users/:id', function(req, res) {
     res.json({ message: `Buscado user ${id}` })
 });
 
+
 server.listen(4000)
